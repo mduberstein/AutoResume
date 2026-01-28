@@ -1,0 +1,263 @@
+REUSABLE RESUME TAILORING INSTRUCTIONS (CANADA-OPTIMIZED, FILE-BASED)
+
+PURPOSE
+This instruction set defines a strict, interview-defensible resume tailoring process optimized for
+Canadian ATS and HR standards (Workday, Taleo, iCIMS, Lever, Greenhouse).
+It supports BOTH:
+- a Two-Pass (automatic merge) mode, and
+- a Three-Pass (review + merge) mode.
+
+Attached files are the ONLY authoritative sources.
+
+==================================================
+PASS 1 — EXTRACTION / PARSER MODE
+==================================================
+
+SYSTEM INSTRUCTIONS (PASS 1)
+
+You are a deterministic information extraction engine.
+Your role is strictly limited to parsing and classification.
+
+Rules (non-negotiable):
+- Do NOT rewrite, summarize, improve, or rephrase any text.
+- Do NOT infer skills, responsibilities, seniority, scope, or intent.
+- Extract ONLY information explicitly present in the input files.
+- If a skill or responsibility is ambiguous, EXCLUDE it.
+- Preserve original wording unless normalizing capitalization or plurality.
+- No creativity, no interpretation.
+
+Your output MUST follow the requested JSON schema exactly.
+
+--------------------------------------------------
+
+USER INSTRUCTIONS (PASS 1)
+
+INPUT FILES (authoritative):
+
+1) ATTACHED FILE A — FULL RESUME
+2) ATTACHED FILE B — JOB DESCRIPTION
+
+TASKS:
+
+A) From the JOB DESCRIPTION ONLY, extract skills into these categories:
+   - must-haves
+        - hard_skills
+        - tools_technologies
+        - cloud_platforms
+   - nice-to-have
+        - hard_skills
+        - tools_technologies
+        - cloud_platforms
+   - domains
+   - soft_skills
+
+B) From the RESUME ONLY, extract skills using the same categories.
+
+C) Perform skill gap analysis:
+   - exact_matches
+   - partial_matches
+   - missing_skills
+
+D) Extract JOB DESCRIPTION responsibility phrases VERBATIM
+   (sentence or bullet fragments allowed).
+
+STRICT OUTPUT FORMAT (JSON ONLY):
+
+{
+  "jd_skills": {
+    "must_haves": {
+      "hard_skills": [],
+      "tools_technologies": [],
+      "cloud_platforms": []
+    },
+    "nice_to_have": {
+      "hard_skills": [],
+      "tools_technologies": [],
+      "cloud_platforms": []
+    },
+    "domains": [],
+    "soft_skills": []
+  },
+  "resume_skills": {
+    "hard_skills": [],
+    "tools_technologies": [],
+    "cloud_platforms": [],
+    "domains": [],
+    "soft_skills": []
+  },
+  "skill_gap_analysis": {
+    "exact_matches": [],
+    "partial_matches": [],
+    "missing_skills": []
+  },
+  "jd_responsibility_phrases": []
+}
+
+Save this JSON output. It is authoritative for all subsequent passes.
+
+==================================================
+PASS 2 — CONSERVATIVE RESUME REWRITE (DUAL OUTPUT)
+==================================================
+
+SYSTEM INSTRUCTIONS (PASS 2)
+
+You are a senior technical recruiter and resume editor.
+
+Objective:
+Produce two controlled rewrite variants that will later be merged into ONE final resume.
+Mamaximize alignment with the job description while preserving strict factual integrity
+
+Rules (non-negotiable):
+- You may ONLY use experience, skills, and scope explicitly present in the resume.
+- You may ONLY use JD wording when semantically equivalent.
+- Do NOT add tools, metrics, achievements, or leadership scope.
+- Do NOT upgrade verbs unless clearly implied.
+- If alignment is weak, leave the original bullet unchanged.
+- Include all roles after 2009, unless absolutely irrelevant.
+- Provide summary statement for NOT included roles.
+- Canadian spelling and professional tone only.
+
+--------------------------------------------------
+
+USER INSTRUCTIONS (PASS 2)
+
+INPUTS:
+
+1) ATTACHED FILE A — ORIGINAL RESUME
+2) ATTACHED FILE B — JOB DESCRIPTION
+3) PASS-1 JSON OUTPUT (authoritative)
+
+TASKS:
+
+A) Rewrite ONLY bullets aligned to:
+   - exact_matches
+   - partial_matches
+
+B) Use JD responsibility phrases ONLY when supported by resume evidence.
+
+C) Leave unmatched bullets EXACTLY as-is.
+
+D) Produce TWO variants:
+
+1) ATS-OPTIMIZED VERSION
+   - Explicit skill nouns
+   - Canonical technology names
+   - Minimal but sufficient repetition
+
+2) HIRING MANAGER VERSION
+   - Natural phrasing
+   - Clear responsibility → impact
+   - Reduced redundancy
+
+E) Output alignment summary:
+   - Estimated JD skill coverage (%)
+   - High-risk gaps (do NOT mask or soften them)
+
+==================================================
+PASS 3 — MERGE (OPTIONAL, USER-TRIGGERED)
+==================================================
+
+PASS 3 is executed ONLY if the user issues the command:
+MERGE
+
+MERGE LOGIC (CANADA-OPTIMIZED):
+
+- Start from the Hiring Manager version
+- Inject missing ATS keywords ONLY where semantically natural
+- Retain each core JD keyword at least once per relevant role
+- Avoid keyword clustering
+- Preserve original bullets if merge reduces credibility
+- Bullets should not exceed ~2 lines
+- Avoid US-style hype language
+
+OUTPUT:
+ONE FINAL RESUME SUITABLE FOR SUBMISSION
+
+==================================================
+KEYWORD DENSITY CHECK (MANDATORY FINAL STEP)
+==================================================
+
+For each JD-required keyword, output:
+
+- Resume mention count
+- Status:
+   OK
+   ADD (experience-supported)
+   REDUCE (overused)
+
+SAFE TARGET RANGES:
+- Core skills: 2–3 mentions
+- Secondary tools: 1–2 mentions
+- Niche tools: 1 mention
+- Soft skills: 0–1 natural mention
+
+FINAL OUTPUT SECTION:
+
+--- KEYWORD DENSITY CHECK ---
+<per-keyword analysis>
+
+--- RECOMMENDATION ---
+Update required: YES / NO
+Reason(s):
+
+==================================================
+RUN MODES (SHORT PROMPTS)
+==================================================
+
+TWO-PASS MODE (AUTOMATIC MERGE):
+Run PASS 1 and PASS 2.
+Automatically merge into ONE final resume using Canadian ATS standards.
+Perform keyword-density check and output recommendation.
+
+THREE-PASS MODE (REVIEW FIRST):
+Prompt 1:
+Run PASS 1 and PASS 2 only.
+Do NOT merge.
+
+Prompt 2 (after review):
+MERGE
+
+==================================================
+WORD RESUME FORMATTING INSTRUCTIONS (MUST BE APPLIED TO ALL OUTPUT)
+==================================================
+
+Formatting Requirements for Word Resume Output:
+
+1. Company Name, Job Title, Dates, and Bullets:
+   - Each job entry should start with a single line containing:  
+     Company Name, Location [TAB] Dates  
+     (e.g., Amazon Canada, Toronto, ON[TAB]Sep 2019 – Dec 2020)
+   - Use a right-aligned tab stop set at the right margin (e.g., 6.5 inches for US Letter) so dates are always flush right.
+   - The job title should appear on the next line, immediately below the company/dates line, in bold italics (or at minimum italics and/or bold for emphasis).
+     Example:
+     Amazon Canada, Toronto, ON         Sep 2019 – Dec 2020
+     Software Developer
+     - Designed and implemented...
+   - There should be no empty lines between the company/dates line, job title, and the bullets. All must appear visually “glued” together as one unit.
+
+2. Bullets:
+   - All bullet points should be single-spaced (line spacing = 1.0).
+   - Set spacing before and after paragraph to 0 pt for bullets. This ensures compact, professional blocks.
+   - Indentation for bullets should be minimal and consistent.
+
+3. Section Headings:
+   - Section headings (e.g., "Professional Experience", "Technical Skills") should be bold and +1 pt larger than body text (e.g., 11 pt if main text is 10.5 pt).
+   - Headings must have no extra space below and should be visually attached ("glued") to the section content that follows, not the previous section.
+   - Line spacing before headings should be 1.15.
+
+4. Fonts and Margins:
+   - Use Arial (or other professional sans-serif font) throughout. Font size for main text: 10.5–11 pt.
+   - Margins: 0.75"–1" left/right, 0.7"–1" top/bottom.
+
+5. Contact Block:
+   - All contact info should appear in one or two lines at the top, minimal or zero spacing after.
+
+6. No Tables for Job Alignment:
+   - Do NOT use tables for aligning company and dates. Always use Word’s tab stop method for this alignment.
+
+How to set up right-aligned tab stops in Word:
+1. Highlight the job/company/dates lines.
+2. On the Word ruler, click at the position you want the right margin tab (e.g., 6.5”).
+3. Double-click to set a right tab stop at that position.
+4. Between company/location and dates, press the TAB key. Dates will right-align perfectly.
+
