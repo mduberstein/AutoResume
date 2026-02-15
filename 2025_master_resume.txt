@@ -1,0 +1,159 @@
+                                                         	MICHAEL DUBERSTEIN
+1103 Huntley Court, Oakville, ON ? L6H 3B7
+647-295-0180	 mduberstein@gmail.com
+
+PROFESSIONAL PROFILE
+Full Stack Developer, Team Lead and Manager experienced in architecting, developing and delivering complex software systems across various industries including fintech, healthcare, telematics, transportation, e-commerce and automation. Recognized for a unique blend of technical depth and leadership acumen, consistently driving timely delivery, quality and team cohesion across diverse engagements. Generously lending expertise in C#, Java, Angular, React, AWS cloud services and system design to developers, QA analysts and support engineers to solve problems and delight customers.
+
+
+TECHNICAL SKILLS
+
+PROGRAMMING LANGUAGES:  Typescript, Java, C#, C++, C, SQL, JavaScript, Ruby, CSS, LESS, Python, HTML5, Bash, Powershell, Swift
+
+TECHNOLOGIES, FRAMEWORKS AND PROTOCOLS:	 React, Angular, Xamarin, .NET, LINQ, ASP.NET, MVC, WebApi, jQuery, JSON, XML, YAML, XUnit, NUnit, Junit, Qunit, Mocha, Chai, Entity Framework, Design Patterns, Spring.NET, Spring, REST, SOAP, TCP/IP, HTTP, Kestrel, Tomcat
+
+DEVELOPMENT TOOLS, DATABASES, SOURCE CONTROL, ENVIRONMENTS AND EDITORS: Visual Studio, Visual Studio Code, IntelliJ, XCode, SQL Server, PostgreSql, DB2, MongoDB, DynamoDB, GIT, GitHub, Bitbucket, Continuous Integration � Jenkins, TeamCity; Fiddler, Swagger, Postman, Maven, MSBuild
+
+CLOUD: AWS services expert; GCP Compute Engine, BigQuery, Azure - proficient
+
+OPERATING SYSTEMS AND VIRTUALIZATION ENVIRONMENTS MacOS, Windows Server, Windows 11, Linux - Ubuntu, IOS, Android, Parallelis
+
+AGILE, REQUIREMENTS AND DOCUMENTATION MANAGEMENT:  As a team lead performed Scum Master duties using Jira and Confluence, documented using UML, Enterprise Architect, Google Suite, DOORS
+
+LEADERSHIP SKILLS
+Managed software and multidisciplinary teams up to 8 people, including hiring, training and performance management.
+
+SYSTEMS AND SOFTWARE ENGINEERING WORK EXPERIENCE
+
+2029025 Ontario Inc., Oakville, ON						 May 2024 � present
+Consulting engagements using C#, Java, React, Angular, Redis, AWS, Azure Service Bus, Azure DevOps and Key Vault. Clients include Air Trans Forwarding ltd, Gateway Services Inc, Lifecycle Integrity Inc.
+Supporting client development teams with system architecture, hands-on coding, and troubleshooting.
+Completed LLM Engineering in Python course.
+
+RBI, Toronto, ON, Team Lead and Scrum Master					April 2023 � Sep 2023
+Industry: fast-food
+Lead knowledge transfer from a team of contractors to the internal team. Interviewed candidates. Led Scrum ceremonies, managed communication with stakeholders, administered repos, reviewed designs and code. Tech Stack: AWS (Lambdas, DynamoDB, API Gateway, EventBridge, CloudFormation, CloudWatch, CDK), Node.js � backend services in Typescript, REST API design using Swagger, Postman, GraphQL, Advocated and introduced Datalog for observability.    
+
+Flutter International (former Poker Stars), Toronto, ON 			     	August 2021 � Feb 2023
+SENIOR SOFTWARE DEVELOPER
+Industry: payments, gaming
+Designed and implemented Payment Processor Integration modules using Angular, React and Node.js using Typescript, Java, Java Streams API and DB2 database in a multilayer distributed application with Java REST services middle tier and C++ backend in an Agile team using Jenkins CI/CD pipelines and Kubernetes.
+
+Amazon Canada, Toronto, ON					September 2019 � December 2020
+SOFTWARE DEVELOPER
+Industry: e-commerce, transportation
+Designed and implemented Driver Evaluation distributed REST services and API(s) for the Rabbit mobile application using Java, Java Streams API, Kinesis Streams, React Native, varied AWS services including Dynamo DB No SQL database. Led redesign and refactoring projects involving internationally distributed teams.
+
+Verizon Connect, Toronto, ON		                                                                           April 2018 � Sept 2019
+SENIOR SOFTWARE DEVELOPER
+Industry: mobile navigation, mapping technology, Routing
+Designed and implemented a mobile Navigation Application targeting IOS and Android phones using Xamarin Forms, C#, Visual Studio for Mac, Mercurial, Jira, Ruby for build management in TeamCity, some Swift in XCode, some Objective-C for Xamarin binding. Employed latest C# features and functional programming concepts. Set up Ruby version management procedure. Used Kibana for log analysis.
+
+Cox Automotive (former Dealer Track), Mississauga, ON                                  	January � March 2018
+TECHNICAL LEAD IN PROFESSIONAL SERVICES TEAM
+Industry: financial
+Lead a scrum team of developers and QA analysts serving 3 biggest lenders accounting for 75% of company revenue in a formal Safe Scrum of Scrums environment. Used Jira and Enterprise Architect.
+Interviewed candidates for peer Tech Lead vacancies.
+Learned and reverse engineered large C# code base of the Credit Application management package connecting Automotive Dealer Salespersons and Lenders.
+Reverse engineered parts of Oracle database using Oracle Modeller and Oracle Designer.
+Proposed Team Performance Metrics and coordinated the proposal for Team Quarterly Goals.
+Implemented 3 improvements involving editing pdf contract forms and coded fields calculations.�
+
+i3 Solutions, Mississauga, ON - healthcare	                                                             June � November 2017
+LEAD SOFTWARE ENGINEER, TEAM MANAGER
+Industry: healthcare
+Lead an agile DevOps team automating creation of customized Windows OS client images for a distributed medical application. Front-end - WPF, back-end � Node.js, MongoDB. Evaluated and selected Angular 4 for support automation Web App. Established and implemented lean development, QA and documentation processes. Identified and ordered required lab equipment. Structured, oversaw creation of and wrote requirements, development and test documentation.  Developed work break down structures, provided time estimates for the team and selected development tools. Mentored developers and interviewed candidates. Lead code base refactoring and implementation of new features by example. Coded and reviewed team member's code using Angular, Typescript, Node.js, PowerShell, C#, WPF, Pester unit test framework and GitHub.  Drove collaboration with an off-shore application development team in RFQs, troubleshooting the deployed application, resolved critical design and integration issues directly impacting customer satisfaction.
+
+Geotab Inc., ON	                                                             	April 2015 � May 2017
+SENIOR SOFTWARE DEVELOPER � PROJECT LEAD
+Industry: telematics
+Company product: a suite of fleet management telematics applications collecting geolocation, velocity, acceleration and automotive diagnostics data to SAE J1939.
+Developed features in a telematics web server using SQL, C#, Java, ADO.NET, TPL, LINQ, REST and Typescript. Lead integration with and developed custom solutions for the largest customer fleet managing customer business and engineering stakeholders from requirements definition to production delivery. Setup and managed staging Windows server on Google Compute Engine. Performed developer on-call duties troubleshooting production servers, analyzed memory dumps, optimized SQL Queries for SQL Server and Postgres. Wrote IPython notebooks in Python to extract data from Google Big Query. 
+
+Hamilton Health Sciences, ON	                                                            	June 2014 - March 2015
+SENIOR SOFTWARE DEVELOPER (CONTRACT) in agile scrum team.
+Industry: healthcare
+Implemented continuous integration using TFS. Architectured, developed and setup infrastructure for Selenium based testing framework integrated with TFS. Developed features for a medical web Application. Used Visual Studio, Microsoft Test Manager, Entity Framework, ASP.NET, MSTest runner, T4 templates, PowerShell, MSBuild, Bootstrap, MVC, SQL Server.
+
+General Mills � Mississauga, ON		                        October 2013 � May 2014
+SENIOR SOFTWARE DEVELOPER (CONTRACT) in agile scrum team.
+Industry: consumer goods
+Architectured, and developed web client, business layer and back end for Trading Volume Forecast module in the Enterprise Web Application. Used Visual Studio including Test Framework, Html5,  JavaScript, jQuery, jQueryUI, KnockoutJS MVVM, CSS, JSON, C#, ASP.Net MVC, Entity Framework, Hibernating Rhinos profiler, Dependency Injection �Ninject,  LINQ, SQL Server DB, MicrosoftOpenXml,  Moq � mocking framework.
+
+Xltek[MT1], division of Natus - Oakville, ON 	April 2010 � July 2013
+SENIOR SOFTWARE DEVELOPER
+? Industry: healthcare
+? Product: leading Neurology and Sleep distributed software package controlling peripheral hardware devices (head boxes and video cameras) for neurology disorder diagnostics (epilepsy) and sleep studies. Multiple processes and threads, multiple SQL Server databases. Ported to Windows 7 and developed new features across the entire suite.
+? Designed and coded TCP/IP server to communicate between Windows Services, Desktop application and Direct Show video server and PTZ camera control.
+? Technologies and tools: C#, C++, SQL, JavaScript, jQuery, ASP.NET MVC, DCOM, TCP/IP, gtest, DirectShow, Enterprise Architect, RcWinTrans.
+? Prototyped Mobile/Desktop web site for monitoring Xltek machines and apps on a customer site.
+
+Pharmatrust, Oakville, ON	                 	December 2009 � February 2010
+SENIOR SOFTWARE DEVELOPER (CONTRACT)
+? Industry: healthcare
+? Company: start-up producing automated medication dispensing kiosks. I worked on inventory management applications.
+? Changed architecture and refactored a C# Windows desktop application with WCF, IIS Web Server, .NET remoting application server, SQL Server DB and Message Queue to improve concurrency, transaction management, scalability, security and stability. 
+? Designed and coded a set of C# desktop client interfaces to access DB directly, through .NET remoting or Web Services without code changes in the clients, by only changing configuration.
+Achievement: resolved major business problems in reconciling inventory levels between replenishment and dispensing due to broken workflows in unstable network environments by principally changing transaction and database design.  
+
+i365 � A Seagate Company, Oakville, ON	April 2009 � December 2009
+SENIOR AUTOMATION TEST DEVELOPER (CONTRACT) in Kanban agile team
+* Company product: secure hardware and software back-up solutions for medium size businesses.
+* Developed Automated Functional Tests for the Evault Backup Server using C#, C++/CLI, NUnit and XML for all Windows platforms.
+* Set up and configured a remote automated test lab.
+Achievement: Developed �Test Result Analyzer� - Windows application package automatically configuring, uploading, analyzing and graphically representing test results from three test server farms (1800 daily tests per farm) using batch scripts, Windows Scheduler, NUnit, Cruise Control, C#, SQL Server, Microsoft Query and Excel. 
+
+*prior to 2009 � held a variety of SW Developer, Team Lead and Project Lead roles in the areas of virtualization, medical data management, railway train control, industrial process control and visual inspection in various software and multidisciplinary companies in the GTA.
+
+EDUCATION AND CERTIFICATIONS
+
+
+B.SC. IN COMPUTER SCIENCE (terminal � 75% credits)	2002
+Mercy College, New York
+
+M.SC. IN MECHANICAL ENGINEERING (summa cum laude)	1987
+Belarusian National Technical University, Minsk, Belarus, confirmed as M.Sc. in Canada                   2006
+
+Training
+
+Leadership:
+
+SAFE SCRUM OF SCRUM FRAMEWORK, COX AUTOMOTIVE                                                                    2018
+MANAGEMENT SKILLS FOR LEADERS, CANADIAN MANAGEMENT CENTRE 	2017
+PROJECT MANAGEMENT TO PMBOK THIRD ADDITION 	2005
+
+Certifications:
+MICROSOFT CERTIFIED SOLUTION DEVELOPER, MCSD	2002
+CERTIFIED AS A SOFTWARE ENGINEER FOR EMBEDDED SYSTEMS	1998
+IBM College, Tel-Aviv
+SOFTWARE ENGINEERING FOR GRADUATES RETRAINING PROGRAM CERTIFICATE	1997
+Post Graduate Division, Tel-Aviv University
+
+Software (at www.pluralsight.com unless otherwise specified):
+LLM ENGINEERING WITH ED DONNER, UDEMY	2025
+DEVELOPING WITH AWS, UDEMY	2022
+REACT WITH STEPHEN GRIDER, UDEMY 	2022
+AWS AND OTHER AMAZON INTERNAL COURSES 	2019 - 2020
+SWIFT 3 FUNDAMENTALS                                                                                                                                          2019
+IOS 11 FUNDAMENTALS                                                                                                                                            2019
+RUBY FUNDAMENTALS                                                                                                                                               2018
+ANGULARJS (BOTH TYPESCRIPT AND JAVASCRIPT)                                                                                         2017
+TYPESCRIPT, VISUAL STUDIO CODE                                                                                                                      2017
+BOOTSTRAP, AUTOMATED TESTING � SELENIUM, MICROSOFT TEST MANAGER, 
+DATABASE TOOLS FOR DEVELOPERS								        2014
+SOLID PRINCIPLES OF OOD, CLEAN CODE, MOCKING WITH MOQ               2013
+JQUERY FUNDAMENTALS, JQUERY ADVANCED TOPICS	2012
+ASP.NET MVC4 FUNDAMENTALS	2012
+ENITITY FRAMEWORK (MULTIPLE COURSES) by Julie Lerman	2012
+BUILDING ASP.NET MVC APPS WITH EF CODE FIRST, HTML5 AND JQUERY	2012
+BUILDING HTML5 AND JAVASCRIPT APPS WITH MVVM AND KNOCKOUT	2012
+SINGLE PAGE APPS WITH HTML5, WEB API, KNOCKOUT AND JQUERY	2012
+PlateSpin � Novell internal training
+AGILE PROJECT MANAGEMENT � WORKING ON A SCRUM TEAM	2008
+VM WARE ESX SERVER	2008
+PLATESPIN ANALYST COURSE	2008
+SPRING.NET	2008
+
+REFERENCES AVAILABLE UPON REQUEST
+[MT1]I would recommend removing all highlighted in Yellow
+
