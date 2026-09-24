@@ -10,13 +10,13 @@ and team cohesion across diverse engagements. Generously lending expertise in C#
 services and system design to developers, QA analysts and support engineers to solve problems and delight customers.
 
 TECHNICAL SKILLS
-PROGRAMMING LANGUAGES:  Typescript, Java, C#, C++, C, SQL, JavaScript, Ruby, CSS, LESS, Python, HTML5, Bash, Powershell,
+PROGRAMMING LANGUAGES: C#, C++, Typescript, Java, C, SQL, JavaScript, Ruby, CSS, LESS, Python, HTML5, Bash, Powershell,
 Swift
 TECHNOLOGIES, FRAMEWORKS AND PROTOCOLS:  React, Angular, Xamarin, .NET, LINQ, ASP.NET, MVC, WebApi, jQuery, JSON, XML,
 YAML, XUnit, NUnit, Junit, Qunit, Mocha, Chai, Entity Framework, Design Patterns, Spring.NET, Spring, REST, SOAP,
 TCP/IP, HTTP, Kestrel, Tomcat
 DEVELOPMENT TOOLS, DATABASES, SOURCE CONTROL, ENVIRONMENTS AND EDITORS: Visual Studio, Visual Studio Code, IntelliJ,
-XCode, SQL Server, PostgreSql, DB2, MongoDB, DynamoDB, GIT, GitHub, Bitbucket, Continuous Integration � Jenkins,
+XCode, SQL Server, PostgreSql, DB2, MongoDB, DynamoDB, GIT, GitHub, Bitbucket, Continuous Integration:  Jenkins,
 TeamCity; Fiddler, Swagger, Postman, Maven, MSBuild
 CLOUD: AWS services expert; GCP Compute Engine, BigQuery, Azure - proficient
 OPERATING SYSTEMS AND VIRTUALIZATION ENVIRONMENTS MacOS, Windows Server, Windows 11, Linux - Ubuntu, IOS, Android,
@@ -29,34 +29,34 @@ Managed software and multidisciplinary teams up to 8 people, including hiring, t
 
 SYSTEMS AND SOFTWARE ENGINEERING WORK EXPERIENCE
 
-2029025 Ontario Inc., Oakville, ON						        May 2024 � present
+2029025 Ontario Inc., Oakville, ON						        May 2024 - present
 Consulting engagements using C#, Java, React, Angular, Redis, AWS, Azure Service Bus, Azure DevOps and Key Vault.
 Clients include Air Trans Forwarding ltd, Gateway Services Inc, Lifecycle Integrity Inc.
 Supporting client development teams with system architecture, hands-on coding, and troubleshooting.
 Completed LLM Engineering in Python course.
 
-RBI, Toronto, ON, Team Lead and Scrum Master					            April 2023 � Sep 2023
+RBI, Toronto, ON, Team Lead and Scrum Master					            April 2023 - Sep 2023
 Industry: fast-food
 Lead knowledge transfer from a team of contractors to the internal team. Interviewed candidates. Led Scrum ceremonies,
 managed communication with stakeholders, administered repos, reviewed designs and code. Tech Stack: AWS (Lambdas,
 DynamoDB, API Gateway, EventBridge, CloudFormation, CloudWatch, CDK), Node.js � backend services in Typescript, REST API
 design using Swagger, Postman, GraphQL, Advocated and introduced Datalog for observability.
 
-Flutter International (former Poker Stars), Toronto, ON 			     	August 2021 � Feb 2023
+Flutter International (former Poker Stars), Toronto, ON 			     	August 2021 - Feb 2023
 SENIOR SOFTWARE DEVELOPER
 Industry: payments, gaming
 Designed and implemented Payment Processor Integration modules using Angular, React and Node.js using Typescript, Java,
 Java Streams API and DB2 database in a multilayer distributed application with Java REST services middle tier and C++
 backend in an Agile team using Jenkins CI/CD pipelines and Kubernetes.
 
-Amazon Canada, Toronto, ON					                                September 2019 � December 2020
+Amazon Canada, Toronto, ON					                                September 2019 - December 2020
 SOFTWARE DEVELOPER
 Industry: e-commerce, transportation
 Designed and implemented Driver Evaluation distributed REST services and API(s) for the Rabbit mobile application using
 Java, Java Streams API, Kinesis Streams, React Native, varied AWS services including Dynamo DB No SQL database. Led
 redesign and refactoring projects involving internationally distributed teams.
 
-Verizon Connect, Toronto, ON                                                 April 2018 � Sept 2019
+Verizon Connect, Toronto, ON                                                 April 2018 - Sept 2019
 SENIOR SOFTWARE DEVELOPER
 Industry: mobile navigation, mapping technology, Routing
 Designed and implemented a mobile Navigation Application targeting IOS and Android phones using Xamarin Forms, C#,
@@ -64,7 +64,7 @@ Visual Studio for Mac, Mercurial, Jira, Ruby for build management in TeamCity, s
 Xamarin binding. Employed latest C# features and functional programming concepts. Set up Ruby version management
 procedure. Used Kibana for log analysis.
 
-Cox Automotive (former Dealer Track), Mississauga, ON                        January � March 2018
+Cox Automotive (former Dealer Track), Mississauga, ON                        January - March 2018
 TECHNICAL LEAD IN PROFESSIONAL SERVICES TEAM
 Industry: financial
 Lead a scrum team of developers and QA analysts serving 3 biggest lenders accounting for 75% of company revenue in a
@@ -74,9 +74,9 @@ Learned and reverse engineered large C# code base of the Credit Application mana
 Dealer Salespersons and Lenders.
 Reverse engineered parts of Oracle database using Oracle Modeller and Oracle Designer.
 Proposed Team Performance Metrics and coordinated the proposal for Team Quarterly Goals.
-Implemented 3 improvements involving editing pdf contract forms and coded fields calculations.�
+Implemented 3 improvements involving editing pdf contract forms and coded fields calculations.
 
-i3 Solutions, Mississauga, ON - healthcare                                   June � November 2017
+i3 Solutions, Mississauga, ON - healthcare                                   June - November 2017
 LEAD SOFTWARE ENGINEER, TEAM MANAGER
 Industry: healthcare
 Lead an agile DevOps team automating creation of customized Windows OS client images for a distributed medical
@@ -89,7 +89,7 @@ team member's code using Angular, Typescript, Node.js, PowerShell, C#, WPF, Pest
 Drove collaboration with an off-shore application development team in RFQs, troubleshooting the deployed application,
 resolved critical design and integration issues directly impacting customer satisfaction.
 
-Geotab Inc., ON	                                                             	April 2015 � May 2017
+Geotab Inc., ON	                                                             	April 2015 - May 2017
 SENIOR SOFTWARE DEVELOPER � PROJECT LEAD
 Industry: telematics
 Company product: a suite of fleet management telematics applications collecting geolocation, velocity, acceleration and
@@ -108,7 +108,7 @@ Implemented continuous integration using TFS. Architectured, developed and setup
 testing framework integrated with TFS. Developed features for a medical web Application. Used Visual Studio, Microsoft
 Test Manager, Entity Framework, ASP.NET, MSTest runner, T4 templates, PowerShell, MSBuild, Bootstrap, MVC, SQL Server.
 
-General Mills � Mississauga, ON		                                            October 2013 � May 2014
+General Mills � Mississauga, ON		                                            October 2013 - May 2014
 SENIOR SOFTWARE DEVELOPER (CONTRACT) in agile scrum team.
 Industry: consumer goods
 Architectured, and developed web client, business layer and back end for Trading Volume Forecast module in the
@@ -116,7 +116,7 @@ Enterprise Web Application. Used Visual Studio including Test Framework, Html5, 
 KnockoutJS MVVM, CSS, JSON, C#, ASP.Net MVC, Entity Framework, Hibernating Rhinos profiler, Dependency Injection
 �Ninject,  LINQ, SQL Server DB, MicrosoftOpenXml,  Moq � mocking framework.
 
-Xltek[MT1], division of Natus - Oakville, ON 	                                April 2010 � July 2013
+Xltek[MT1], division of Natus - Oakville, ON 	                                April 2010 - July 2013
 SENIOR SOFTWARE DEVELOPER
 ? Industry: healthcare
 ? Product: leading Neurology and Sleep distributed software package controlling peripheral hardware devices (head boxes
@@ -128,7 +128,7 @@ server and PTZ camera control.
 Architect, RcWinTrans.
 ? Prototyped Mobile/Desktop web site for monitoring Xltek machines and apps on a customer site.
 
-Pharmatrust, Oakville, ON	                 	                                December 2009 � February 2010
+Pharmatrust, Oakville, ON	                 	                                December 2009 - February 2010
 SENIOR SOFTWARE DEVELOPER (CONTRACT)
 ? Industry: healthcare
 ? Company: start-up producing automated medication dispensing kiosks. I worked on inventory management applications.
@@ -183,16 +183,11 @@ LLM ENGINEERING WITH ED DONNER, UDEMY	2025
 DEVELOPING WITH AWS, UDEMY	2022
 REACT WITH STEPHEN GRIDER, UDEMY 	2022
 AWS AND OTHER AMAZON INTERNAL COURSES 	2019 - 2020
-SWIFT 3 FUNDAMENTALS
-2019
-IOS 11 FUNDAMENTALS
-2019
-RUBY FUNDAMENTALS
-2018
-ANGULARJS (BOTH TYPESCRIPT AND JAVASCRIPT)
-2017
-TYPESCRIPT, VISUAL STUDIO CODE
-2017
+SWIFT 3 FUNDAMENTALS 2019
+IOS 11 FUNDAMENTALS 2019
+RUBY FUNDAMENTALS 2018
+ANGULARJS (BOTH TYPESCRIPT AND JAVASCRIPT) 2017
+TYPESCRIPT, VISUAL STUDIO CODE 2017
 BOOTSTRAP, AUTOMATED TESTING � SELENIUM, MICROSOFT TEST MANAGER, 
 DATABASE TOOLS FOR DEVELOPERS								        2014
 SOLID PRINCIPLES OF OOD, CLEAN CODE, MOCKING WITH MOQ               2013

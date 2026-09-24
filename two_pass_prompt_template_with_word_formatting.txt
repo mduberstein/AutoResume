@@ -37,13 +37,19 @@ INPUT FILES (authoritative sources):
 TASKS:
 
 A) From the JOB DESCRIPTION ONLY, extract skills into these categories:
-   - hard_skills
-   - tools_technologies
-   - cloud_platforms
+   - must-haves
+        - hard_skills
+        - tools_technologies
+        - cloud_platforms
+   - nice-to-have
+        - hard_skills
+        - tools_technologies
+        - cloud_platforms
    - domains
    - soft_skills
 
 B) From the RESUME ONLY, extract skills using the SAME categories.
+
 
 C) Perform skill gap analysis:
    - exact_matches (same wording)
@@ -57,7 +63,9 @@ STRICT OUTPUT FORMAT (JSON ONLY):
 
 {
   "jd_skills": {
-    "hard_skills": [],
+    "hard_skills": {
+        "must-haves": [],
+        "nice-to-have: [],
     "tools_technologies": [],
     "cloud_platforms": [],
     "domains": [],
@@ -98,8 +106,7 @@ Rules (non-negotiable):
 - Do NOT upgrade verbs (e.g., “supported” → “led”) unless clearly implied.
 - If alignment is weak or uncertain, leave the original bullet unchanged.
 - If a claim cannot be defended in an interview, DO NOT include it.
-- Include at least 10 years of job experiences. DO NOT include earlier positions only if absolutely irrelevant.
-
+- Include all job experiences after 2009. Only drop experiences if absolutely irrelevant.
 --------------------------------------------------
 
 USER INSTRUCTIONS (PASS 2)
@@ -149,9 +156,7 @@ OUTPUT STRUCTURE:
 - Skill coverage: X%
 - High-risk gaps:
   - ...
-
-END OF INSTRUCTIONS
-
+Export to Word
 
 ==================================================
 WORD RESUME FORMATTING INSTRUCTIONS (MUST BE APPLIED TO ALL OUTPUT)
@@ -198,3 +203,4 @@ How to set up right-aligned tab stops in Word:
 4. Between company/location and dates, press the TAB key. Dates will right-align perfectly.
 
 ==================================================
+END OF INSTRUCTIONS
